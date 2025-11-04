@@ -43,14 +43,14 @@ $data_kades = mysqli_fetch_assoc($result_kades);
 <body>
     <div class="container-fluid p-0 nav-bar">
         <nav class="navbar navbar-expand-lg bg-none navbar-dark py-3">
-            <a href="home.php" class="navbar-brand px-lg-4 m-0">
+            <a href="index.php" class="navbar-brand px-lg-4 m-0">
                 </a>
             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                 <div class="navbar-nav ml-auto p-4">
-                    <a href="home.php" class="nav-item nav-link nav-zoom">HOME</a>
+                    <a href="index.php" class="nav-item nav-link nav-zoom">HOME</a>
                     <a href="profilkepdes.php" class="nav-item nav-link active nav-zoom">PROFIL KEPALA DESA</a>
                     <a href="struktur.php" class="nav-item nav-link nav-zoom">STRUKTUR</a>
                     <div class="nav-item dropdown">
@@ -107,8 +107,7 @@ $data_kades = mysqli_fetch_assoc($result_kades);
 
             </div> </div>
     </div>
-    <div class="container-fluid footer text-white mt-5 pt-5 px-0 position-relative overlay-top">
-        </div>
+
     <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="fa fa-angle-double-up"></i></a>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
@@ -127,3 +126,4 @@ $data_kades = mysqli_fetch_assoc($result_kades);
 </body>
 
 </html>
+<?php include 'footer.php'; ?>

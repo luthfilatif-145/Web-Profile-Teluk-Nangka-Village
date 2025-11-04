@@ -42,13 +42,13 @@ if (!$result) {
 <body>
    <div class="container-fluid p-0 nav-bar">
     <nav class="navbar navbar-expand-lg bg-none navbar-dark py-3">
-        <a href="home.php" class="navbar-brand px-lg-4 m-0"> </a>
+        <a href="index.php" class="navbar-brand px-lg-4 m-0"> </a>
         <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
             <div class="navbar-nav ml-auto p-4">
-                <a href="home.php" class="nav-item nav-link nav-zoom">HOME</a> <a href="profilkepdes.php" class="nav-item nav-link nav-zoom">PROFIL KEPALA DESA</a>
+                <a href="index.php" class="nav-item nav-link nav-zoom">HOME</a> <a href="profilkepdes.php" class="nav-item nav-link nav-zoom">PROFIL KEPALA DESA</a>
                 <a href="struktur.php" class="nav-item nav-link nav-zoom">STRUKTUR</a>
 
                 <div class="nav-item dropdown">
@@ -119,65 +119,6 @@ if (!$result) {
                     
         </div>
     </div>
-    <div class="container-fluid footer text-white mt-5 pt-5 px-0 position-relative overlay-top">
-        <div class="row mx-0 pt-5 px-sm-3 px-lg-5 mt-4">
-            <div class="col-lg-3 col-md-6 mb-5">
-                <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">HUBUNGI</h4>
-                <p><i class="fa fa-map-marker-alt mr-2"></i>Kec. Kubu, Kabupaten Kubu Raya, Kalimantan Barat</p>
-                <p><i class="fa fa-phone-alt mr-2"></i>08534862388</p>
-                <p class="m-0"><i class="fa fa-envelope mr-2"></i>desateluknangka@gmail.com</p>
-            </div>
-            <div class="col-lg-3 col-md-6 mb-5">
-                <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">IKUTI KAMI</h4>
-                <p>Dapatkan Informasi dan berita terbaru seputar Desa Teluk Nangka melalui media sosial kami</p>
-                <div class="d-flex justify-content-start">
-                    <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="https://www.youtube.com/@teluknangka" target="_blank">
-    <i class="fab fa-youtube"></i>
-</a>
-
-<a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="https://www.facebook.com/NamaAkun" target="_blank">
-    <i class="fab fa-facebook-f"></i>
-</a>
-
-<a class="btn btn-lg btn-outline-light btn-lg-square" href="https://www.instagram.com/desateluknangka" target="_blank">
-    <i class="fab fa-instagram"></i>
-</a>
-
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 mb-5">
-                <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Jam Operasional</h4>
-                <div>
-                    <h6 class="text-white text-uppercase">Senin - Jumat</h6>
-                    <p>08.00 WIB - 12.00 WIB</p>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 mb-5">
-                <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">KABAR DESA</h4>
-                <p>Tetap terhubung dengan informasi terbaru dari Desa Teluk Nangka.
-Dapatkan kabar kegiatan, pengumuman penting, dan layanan masyarakat langsung ke email Anda.</p>
-                <div class="w-100">
-                    <div class="input-group">
-                        <input type="text" class="form-control border-light" style="padding: 25px;"
-                            placeholder="Email Anda">
-                        <div class="input-group-append">
-                            <button class="btn btn-primary font-weight-bold px-3">Daftar</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container-fluid text-center text-white border-top mt-4 py-4 px-sm-3 px-md-5"
-            style="border-color: rgba(256, 256, 256, .1) !important;">
-            <p class="mb-2 text-white">WEBSITE DESA TELUK NANGKA</p>
-            <p class="m-0 text-white" style="font-size: 0.9rem;">
-                Design by KKM 2025 Universitas PGRI Pontianak
-            </p>
-            <p class="m-0 text-white" style="font-size: 0.9rem;">
-                Developed & Maintained by Politeknik Negeri Pontianak
-            </p>
-        </div>
-    </div>
     <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="fa fa-angle-double-up"></i></a>
 
 
@@ -197,3 +138,4 @@ Dapatkan kabar kegiatan, pengumuman penting, dan layanan masyarakat langsung ke 
 </body>
 
 </html>
+<?php include 'footer.php'; ?>

@@ -45,7 +45,7 @@ if (!$result) {
     <!-- Navbar Start -->
     <div class="container-fluid p-0 nav-bar">
         <nav class="navbar navbar-expand-lg bg-none navbar-dark py-3">
-            <a href="home.php" class="navbar-brand px-lg-4 m-0">
+            <a href="index.php" class="navbar-brand px-lg-4 m-0">
                 <!-- LOGO ANDA -->
             </a>
             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
@@ -53,7 +53,7 @@ if (!$result) {
             </button>
             <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                 <div class="navbar-nav ml-auto p-4">
-                    <a href="home.php" class="nav-item nav-link nav-zoom">HOME</a>
+                    <a href="index.php" class="nav-item nav-link nav-zoom">HOME</a>
                     <a href="profilkepdes.php" class="nav-item nav-link nav-zoom">PROFIL KEPALA DESA</a>
                     <a href="struktur.php" class="nav-item nav-link nav-zoom">STRUKTUR</a>
 
@@ -136,10 +136,6 @@ if (!$result) {
     <!-- APBDes Table End -->
 
     <!-- Footer Start -->
-    <div class="container-fluid footer text-white mt-5 pt-5 px-0 position-relative overlay-top">
-       <!-- ... (Isi Footer Anda) ... -->
-    </div>
-    <!-- Footer End -->
 
     <!-- Back to Top -->
     <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="fa fa-angle-double-up"></i></a>
@@ -162,3 +158,6 @@ if (!$result) {
     <script src="js/main.js"></script>
 </body>
 </html>
+
+<!-- footer end -->
+<?php include 'footer.php';?>
