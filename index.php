@@ -272,8 +272,8 @@ if (!$result_misi) {
             <p>Dapatkan Informasi dan berita terbaru seputar Desa Teluk Nangka melalui Media Kami</p>
             <div class="d-flex justify-content-start">
                 <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="https." target="_blank"><i class="fab fa-youtube"></i></a>
-                <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="https." target="_blank"><i class="fab fa-facebook-f"></i></a>
-                <a class="btn btn-lg btn-outline-light btn-lg-square" href="https." target="_blank"><i class="fab fa-instagram"></i></a>
+                <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="https://www.facebook.com/search/top?q=desa%20teluk%20nangka%20kec%20kubu" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-lg btn-outline-light btn-lg-square" href="https://www.instagram.com/desateluknangka/#" target="_blank"><i class="fab fa-instagram"></i></a>
             </div>
         </div>
 
