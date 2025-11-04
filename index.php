@@ -269,7 +269,7 @@ if (!$result_misi) {
 
         <div class="col-lg-3 col-md-6 mb-5">
             <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">IKUTI KAMI</h4>
-            <p>Dapatkan Informasi dan berita terbaru seputar Desa Teluk Nangka...</p>
+            <p>Dapatkan Informasi dan berita terbaru seputar Desa Teluk Nangka melalui Media Kami</p>
             <div class="d-flex justify-content-start">
                 <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="https." target="_blank"><i class="fab fa-youtube"></i></a>
                 <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="https." target="_blank"><i class="fab fa-facebook-f"></i></a>
