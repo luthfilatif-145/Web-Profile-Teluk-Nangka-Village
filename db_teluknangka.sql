@@ -39,7 +39,7 @@ CREATE TABLE `admin` (
 --
 
 INSERT INTO `admin` (`id_admin`, `username`, `password`, `nama_lengkap`) VALUES
-(1, 'desa-teluknangka-web-admin', 'administrator123#$%', 'Administrator Desa Teluk Nangka');
+(1, 'admin', '$2b$12$VAR9N47SNV3QT8TjS2doZet/2mrkAJvbQOxWFxLCscO/hXqPKr/Wi', 'Administrator Desa Teluk Nangka');
 
 -- --------------------------------------------------------
 
