@@ -61,13 +61,6 @@ A village profile website for Desa Teluk Nangka, complete with an admin dashboar
 6. Start Apache and MySQL, then open `http://localhost/Web-Profile-Teluk-Nangka-Village`
 7. Admin panel: `http://localhost/Web-Profile-Teluk-Nangka-Village/admin`
 
-## Screenshots
-
-(Add screenshots of the home page, gallery, and admin dashboard here)
-
-## Credits
-
-Front-end based on [template name, if any] - [link]
 
 ## Author
 
